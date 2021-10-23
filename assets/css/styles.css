@@ -351,6 +351,7 @@ button{
   width: 1.5rem;
   height: 5px;
   border-radius: .5rem;
+  background-color: var(--first-color);
 }
 
 /*=============== BUTTONS ===============*/
