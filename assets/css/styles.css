@@ -1,6 +1,6 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
@@ -28,14 +28,14 @@
   --container-color: hsl(30, 8%, 10%); */
 
   /*========== Font and typography ==========*/
-  --body-font: 'Poppins', sans-serif;
-  --biggest-font-size: 2rem;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
+  --body-font: 'Griffy', cursive;
+  --biggest-font-size: 2.2rem;
+  --h1-font-size: 1.7rem;
+  --h2-font-size: 1.45rem;
+  --h3-font-size: 1.2rem;
+  --normal-font-size: 1.218rem;
+  --small-font-size: .903rem;
+  --smaller-font-size: .81rem;
 
   /*========== Font weight ==========*/
   --font-medium: 500;
@@ -59,13 +59,13 @@
 /* Responsive typography */
 @media screen and (min-width: 992px) {
   :root {
-    --biggest-font-size: 4rem;
-    --h1-font-size: 2.25rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;
+    --biggest-font-size: 4.2rem;
+    --h1-font-size: 2.45rem;
+    --h2-font-size: 1.7rem;
+    --h3-font-size: 1.45rem;
+    --normal-font-size: 1.2rem;
+    --small-font-size: .903rem;
+    --smaller-font-size: .81rem;
   }
 }
 
@@ -86,6 +86,7 @@ body{
   font-size: var(--normal-font-size);
   background: var(--body-color);
   color: var(--text-color);
+  letter-spacing: 0.2rem;
 }
 
 h1,h2,h3,h4{
